@@ -1,0 +1,46 @@
+# Byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Sensitive data – never commit the password file
+password.txt
+
+# Encrypted output images produced by the tool
+encryptedImage.png
+encrypted_*.png
+encrypted_*.bmp
+encrypted_*.tiff
+
+# IDE / editor artefacts
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Test artefacts
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# mypy
+.mypy_cache/
